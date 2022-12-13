@@ -1,4 +1,4 @@
-# Deployment Model ANN (Cat vs Dog)
+# COVID-19 Prediction with ANN
 
 ## Deskripsi singkat
 

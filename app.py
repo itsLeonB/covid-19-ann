@@ -33,7 +33,7 @@ def predict_label(img_path):
     pred = pred.reshape(1, -1)[0]
     diag = {i for i in class_dict if class_dict[i] == pred}
     
-    return diag
+    return diag.pop()
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
